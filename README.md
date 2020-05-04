@@ -2,6 +2,6 @@
 
 Matematiki:
 
-Josip Plemelj
-Jurij Vega
-Ivan Vidav
+-Josip Plemelj
+-Jurij Vega
+-Ivan Vidav
