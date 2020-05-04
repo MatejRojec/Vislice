@@ -9,3 +9,5 @@ Matematiki:
 Predsednik države:
 
 Borut Pahor
+Predcednik vlade:
+Janez Janša
