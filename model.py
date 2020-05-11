@@ -8,9 +8,12 @@ ZMAGA = 'W'
 PORAZ = 'X'
 
 class Igra:
-    def __init__(self, geslo, crke=[]):
+    def __init__(self, geslo, crke=None):
         self.geslo = geslo.upper()
-        self.crke = crke 
+        if crke is None:
+            self.crke = []
+        else:
+            self.crke = crke
 
     def napacne_crke(self):
         seznam = []
@@ -36,7 +39,7 @@ class Igra:
         return True
     
     def poraz(self): 
-        if  STEVILO_DOVOLJENIH_NAPAK < len(self.napacne_crke()) :
+        if  STEVILO_DOVOLJENIH_NAPAK < len(self.napacne_crke()):
             return True
         else: 
             return False
